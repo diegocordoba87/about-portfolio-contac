@@ -16,9 +16,17 @@
     }
 main {
     background-color: white;
-    position: center;
-    margin: auto;
+    position: fixed;
+    float: left;
 
+}
+
+main h1 {
+    color: teal;
+}
+
+main img {
+    float: left;
 }
 /* font-family: 'Bitter', serif; h1s
 font-family: 'Oswald', sans-serif; navbar and general text
