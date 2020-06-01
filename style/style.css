@@ -12,12 +12,15 @@
         text-align: left;
         font-family: 'Bitter', serif;
         background-color: teal;
-        margin-left: 30px;
+        
     }
-main {
+
+    main {
     background-color: white;
-    position: fixed;
     float: left;
+    max-width: 75%;
+    margin-left: 40px;
+    margin-top: 30px;
 
 }
 
@@ -28,6 +31,14 @@ main h1 {
 main img {
     float: left;
 }
+
+main section p {
+    margin-left: 10px;
+    font-family:'Bitter', serif;
+    text-align: justify;
+    font-weight: 100;
+}
+
 /* font-family: 'Bitter', serif; h1s
 font-family: 'Oswald', sans-serif; navbar and general text
 this will be my fonts*/
