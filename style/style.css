@@ -1,18 +1,25 @@
-header {
-    background-color: rgb(59, 173, 149) ;   
+
+
+/* navbarformated */
+
+.navbar{
+    margin-left: -2%;
+    margin-right:-2%;
     }
 
-h1 {
-    color: white;
-    text-align: auto;
-    font-family: 'Bitter', serif;
+.dcname {
+        color: whitesmoke;
+        text-align: left;
+        font-family: 'Bitter', serif;
+        background-color: teal;
+        margin-left: 30px;
+    }
+main {
+    background-color: white;
+    position: center;
+    margin: auto;
+
 }
-
-body {
-
-    background-image: image(images/background-light.jpeg);
-}
-
 /* font-family: 'Bitter', serif; h1s
 font-family: 'Oswald', sans-serif; navbar and general text
 this will be my fonts*/
