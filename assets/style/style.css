@@ -60,6 +60,7 @@ section {
     padding-left: 40px;
     padding-top: 30px;
     float: left;
+    padding-bottom: 2;
 }
 
 .container {
@@ -82,3 +83,7 @@ main div p {
     max-width: 100%;
 }
 
+footer {
+    background-color: gray;
+    padding-top: 4px;
+}
