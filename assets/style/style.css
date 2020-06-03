@@ -1,89 +1,110 @@
-/*  
-.navbar {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 40px;
-}
-h2{
-    color: white;
-    font-family: oswald; 
-    padding: 10px;}
 
-main {
-        background-color: white;
-        float: left;
-        max-width: 75%;
-        margin-left: 40px;
-        margin-top: 30px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 15px;
-    }
-
-
-
-main img {
-    float: left;
-    max-width: 100%;
-    margin: 0em;
-    padding-right: 20px;
-    padding-bottom: 4px;
-}
-
-main section p {
-    font-family: 'Bitter', serif; 
-    text-align: justify;
-    font-weight: 100;
-    margin: none;
-    padding-right: 10px;
-   
-}
-
+/* 
 font-family: 'Bitter', serif; h1s
 font-family: 'Oswald', sans-serif; navbar and general text
 this will be my fonts*/ 
 
+.navbar {
+    margin-bottom: 0px;
+    padding: 0px ;}
+
 .navbar-brand {
     background-color: rgb(46, 158, 158);
     margin: 0px;
-    
+    margin-top: 0px;
+    padding-bottom: 1px;   
 }
 
-header h2{
-    background-color: rgb(46, 158, 158) ;
+nav h2{
     color: white;
     font-family: oswald; 
-    padding: 10px;}
+    padding: 5px;}
 
-section {
-
-    padding-left: 40px;
-    padding-top: 30px;
-    float: left;
-    padding-bottom: 2;
-}
-
-.container {
+/* add backgroun and padding */
+main {
     background-color: white;
-    
-    
+    padding: 5px;
+    margin-top: 30px;
 }
 
-.container h2 {
+
+main h2, .main-form h2 {
     color: rgb(46, 158, 158);
-    
+    border-bottom: black;
 }
 
-main div img {
-    float:left;
+/* make image responsive and add padding */
+main img {
+    max-width: 100%;
+    padding-left: 5px;
+    padding-right: 8px;
+    padding-top: 20px;
+    float: left;
+}
+
+.main-form {
+    background-color: white;
+    padding: 10px;
+    margin-top: 50px;
+    padding: 20px;
+}
+.form-control {
     max-width: 100%;
 }
-main div p {
-    float:right;
-    max-width: 100%;
+textarea {
+    max-width: 100%;; min-height : 50px;
+    border-color:#ced4da;
 }
 
 footer {
     background-color: gray;
     padding-top: 4px;
+    margin-top: 220px;
+}
+
+@media screen and (min-width:980px) {
+    .container {
+      float: left;
+      margin-left: 30px;
+    }
+    .main-form {
+        margin-top: 30px;
+        float: left;
+        max-width: 50%;
+        ;
+    }
+  }
+
+ @media screen and (min-width: 768px) {
+    .container {
+      float: none;
+    }
+    .collapsing {
+        -webkit-transition: none;
+        transition: none;
+        display: none;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .navbar-brand {
+      float: center;
+    }
+    .main-form {
+        margin-top: 30px;
+        margin-left:15px;
+        margin-right:15px;      
+  }
+}
+
+@media screen and (max-width:500px) {
+    .navbar-brand {
+      float: center;
+    }
+
+    .main-form {
+        margin-top: 30px;
+        margin-left:15px;
+        margin-right:15px;
+    }
 }
