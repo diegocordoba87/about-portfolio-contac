@@ -1,59 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Oswald:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
-     <title>About me</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Oswald:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/style/style.css">
+  <title>Portfolio</title>
 </head>
 
-    
 
-<body style="background-image: url('images/background-light.jpeg');" class="container-fluid">
-  
-<header>
+
+<body class="overflow-auto" style="background-image: url('assets/images/background.png')">
+
+  <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="d-flex flex-grow-1">
-            <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
-            <a class="navbar-brand " href="https://github.com/diegocordoba87">
-               <span class="dcname">Diego Cordoba </span> 
-            </a>
-            <div class="w-100 text-right">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="Navbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-        </div>
-        <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbar">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="portfolio.html" class="nav-link">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">Contact</a>
-                </li>
-                
-            </ul>
-        </div>
-    </nav>    
-      
-</header>
-<main>
-    <h1>About Me</h1>
-    <section>
+      <a class="navbar-brand" href="index.html">
+        <h2>Diego Cordoba</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>About me</h2>
+      </div>
+      <div class="col-12 border-line">
         <figure>
-            <img src="images/diegocordoba.jpg" alt="Dieg Cordoba">
+          <img src="assets/images/diegocordoba.jpg" alt="picture of Diego Cordoba">
         </figure>
-        <p>
-        My name is Diego Cordoba.  I am a 33 year old Colombian living the dream in Atlanta, GA.  I moved to the Unirted 
-        States in November of 2005 and have lived the American Dream since.  Not many people truly know what the American Dream really is about, but I beieve my life looks a lot like it, so I will tell you more. <br> I came here not knowing any English.  Started working in construction for a little while. That's a tough job and I did not last thre. I decided to give painting a try, but that is also a very tough job, specially in the summer when everybody is swiming in the pool and you have to pain the fence that surrounds the pool.
+        <p>My name is Diego Cordoba.  I was born in Colombia, March 26th 1987.  I was born in Bogota, but was raised in Medellin since most of my fsmily is from there.  My parets are both from Cali, Colombia, so we have a little mix of sub-accents and sub-customs at my house.  While I was in Colombia I enjoyed playing soccer and spending time with friends.  It seems time just moves a little slower down there, which is something I miss sometimes. 
         </p>
-    </section>
-</main>   
+        <p>
+          I moved to the United States when I was 18.  It was hard at the beginning, I am not going to lie, but things have gotten a lot better since, though I'm sure the struggle will always be real, no matter where we come from or where we go, there will always be difficult times. I really like how many more opportunities most people have access to here when compared to Colombia and how much easier it is to be independent here. It may be harder to spend time with friends and family here but I guess that's the price one has to pay to have access to more money!
+        </p>
+        <p>
+          Speaking of money, I have done all kinds of jobs since I came here.  I have worked in construction (for a short summer).  I have also worked in painting (also for a short summer).  Then, once my English started getting better, I started working at a Subway by the house. After a good few months there I went on to work for a gas station.  From then on, with the help of friends, family and teachers, my English got better and better and I was able to get a job in sales for a cellphone company.  During this time I attended college and worked hard to pay for it.  Right before I graduated I was able to find a job as a translator for the governement and that is what I have been doing for the last few years. I also got my real estate license just because I wanted to have it in case I wanted to buy or sell my own places or to help friends and family get a place. And here I am now, trying to change careers and trying to learn something new!
+        </p>
+      </div>
+  
+    </div>
+  </main>
+  <footer class="fixed-bottom page-footer font-small">
+    <div class="footer-copyright text-center py-3">© 2020 Copyright
+    </div>  
+  </footer>
 </body>
 </html>

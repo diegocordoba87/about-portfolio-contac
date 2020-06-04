@@ -1,0 +1,177 @@
+
+/* 
+font-family: 'Bitter', serif; h1s
+font-family: 'Oswald', sans-serif; navbar and general text
+this will be my fonts*/ 
+
+.navbar {
+    margin-bottom: 0px;
+    padding-right: 3px ;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-brand {
+    background-color: rgb(46, 158, 158);
+    margin: 0px;
+    margin-top: 0px;
+    padding-bottom: 1px;   
+}
+
+nav h2{
+    color: white;
+    font-family: oswald; 
+    padding: 5px;}
+
+/* add backgroun and padding */
+main {
+    background-color: white;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+
+main h2, .main-form h2 {
+    color: rgb(46, 158, 158);
+    border-bottom: black;
+}
+
+/* make image responsive and add padding */
+main img {
+    max-width: 100%;
+    padding-left: 5px;
+    padding-right: 8px;
+    padding-top: 20px;
+    float: left;
+}
+
+.main-form {
+    background-color: white;
+    padding: 10px;
+    margin-top: 50px;
+    padding: 20px;
+}
+.form-control {
+    max-width: 100%;
+}
+textarea {
+    max-width: 100%;; min-height : 50px;
+    border-color:#ced4da;
+}
+
+.btn {
+
+    background-color:rgb(46, 158, 158); 
+    color:white;
+}
+
+.border-line {
+    border-top: black;
+}
+
+.portfolio {
+    background-color: white;
+    margin-top: 35px;
+    padding-top: 0px;
+    max-width: 80%;
+    max-height: 60%;
+    margin-left: 35px;
+    
+}
+
+.banner {
+    position: relative;
+    width: 80%;
+    margin-bottom: 15px;
+
+}
+
+.banner img{
+    width: 100%;
+   
+}
+
+.heading {
+    color: white;
+    background-color: rgb(46, 158, 158);
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    top: 85%;
+    left: 4%;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    background-color: gray;
+    padding-top: 4px;
+    margin-top: 220px;
+}
+
+@media screen and (min-width:980px) {
+    .container {
+      
+      margin-left: 30px; 
+    }
+
+    .main-form {
+        margin-top: 30px;
+        
+        max-width: 50%;
+        ;
+    }
+  }
+
+ @media screen and (min-width: 768px) {
+    .container {
+      float: none;
+      margin-bottom: 70px;
+    }
+    .collapsing {
+        -webkit-transition: none;
+        transition: none;
+        display: none;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .navbar-brand {
+      float: center;
+    }
+    .navbar-brand {
+        background-color: rgb(46, 158, 158);
+        margin: 0px;
+        margin-top: 0px;
+        margin-bottom: 3px;
+        padding-bottom: 3px;  
+        width: 100%; 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main-form {
+        margin-top: 30px;
+        margin-left:15px;
+        margin-right:15px;      
+    }
+  .container {
+    margin-bottom: 70px;
+    }
+} 
+
+
+@media screen and (max-width:500px) {
+    .navbar-brand {
+      float: center;
+    }
+    .container {
+        margin-bottom: 70px;
+    }
+
+    .main-form {
+        margin-top: 30px;
+        margin-left:15px;
+        margin-right:15px;
+    }
+}
