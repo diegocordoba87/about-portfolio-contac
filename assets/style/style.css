@@ -127,6 +127,7 @@ footer {
  @media screen and (min-width: 768px) {
     .container {
       float: none;
+      margin-bottom: 70px;
     }
     .collapsing {
         -webkit-transition: none;
@@ -139,26 +140,33 @@ footer {
     .navbar-brand {
       float: center;
     }
+    .navbar-brand {
+        background-color: rgb(46, 158, 158);
+        margin: 0px;
+        margin-top: 0px;
+        margin-bottom: 3px;
+        padding-bottom: 3px;  
+        width: 100%; 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .main-form {
         margin-top: 30px;
         margin-left:15px;
         margin-right:15px;      
-  }
-  .navbar-brand {
-    background-color: rgb(46, 158, 158);
-    margin: 0px;
-    margin-top: 0px;
-    margin-bottom: 3px;
-    padding-bottom: 3px;  
-    width: 100%; 
-    padding-left: 10px;
-    padding-right: 10px;
-}
-}
+    }
+  .container {
+    margin-bottom: 70px;
+    }
+} 
+
 
 @media screen and (max-width:500px) {
     .navbar-brand {
       float: center;
+    }
+    .container {
+        margin-bottom: 70px;
     }
 
     .main-form {
