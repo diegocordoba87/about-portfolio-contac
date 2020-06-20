@@ -13,7 +13,7 @@ this will be my fonts*/
 }
 
 .navbar-brand {
-    background-color: rgb(46, 158, 158);
+    background-color: rgb(65, 124, 212);
     margin: 0px;
     margin-top: 0px;
     padding-bottom: 1px;   
@@ -33,7 +33,7 @@ main {
 
 
 main h2, .main-form h2 {
-    color: rgb(46, 158, 158);
+    color: rgb(65, 124, 212);
     border-bottom: black;
 }
 
@@ -45,6 +45,7 @@ main img {
     padding-top: 20px;
     float: left;
 }
+
 
 .main-form {
     background-color: white;
@@ -62,7 +63,7 @@ textarea {
 
 .btn {
 
-    background-color:rgb(46, 158, 158); 
+    background-color:rgb(65, 124, 212); 
     color:white;
 }
 
@@ -94,11 +95,11 @@ textarea {
 
 .heading {
     color: white;
-    background-color: rgb(46, 158, 158);
+    background-color: rgb(65, 124, 212);
     width: 90%;
     text-align: center;
     position: absolute;
-    top: 85%;
+    top: 65%;
     left: 4%;
     margin: 0px;
     padding: 0px;
@@ -141,7 +142,7 @@ footer {
       float: center;
     }
     .navbar-brand {
-        background-color: rgb(46, 158, 158);
+        background-color: rgb(65, 124, 212);
         margin: 0px;
         margin-top: 0px;
         margin-bottom: 3px;
